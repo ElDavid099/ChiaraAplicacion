@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionTacos.Views.TacosSeprado">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="60"></RowDefinition>
+                </Grid.RowDefinitions>
+
+
+                <Frame BackgroundColor="#cf4400"
+                       Margin="0"
+                    Padding="0"
+                       CornerRadius="10">
+                    <Label Text=" Tacos &#10; POR SEPARADO"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White"
+                       FontSize="Title">
+
+                    </Label>
+                </Frame>
+
+                <Image Source="Logo.png"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Margin="0,0,0,20"></Image>
+
+
+
+
+                <ScrollView Grid.Row="1"
+                        Margin="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition Height="40"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+
+                        <StackLayout Orientation="Vertical">
+                            <Frame Margin="5"
+                           Padding="0"
+                           BorderColor="#cf4400"
+                           BackgroundColor="Transparent">
+                                <Grid HeightRequest="35">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label FontSize="Large"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="Center">Guiso</Label>
+                                    <Label Grid.Column="1"
+                                   FontSize="Large"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="Center">
+                                        Cantidad
+                                    </Label>
+                                </Grid>
+                            </Frame>
+
+                            <Label FontSize="Large"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="Center">Precio: $50.00</Label>
+
+                            <Frame BackgroundColor="OrangeRed"
+                              HeightRequest="40"
+                              Margin="20,0"
+                               Padding="0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label TextColor="White"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">Jamon</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#45;"
+                                        Grid.Column="1"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                    <Label TextColor="White"
+                                       Grid.Column="2"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">00</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#43;"
+                                        Grid.Column="3"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                </Grid>
+                            </Frame>
+                            <Frame BackgroundColor="OrangeRed"
+                              HeightRequest="40"
+                              Margin="20,0"
+                               Padding="0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label TextColor="White"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">Carnita</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#45;"
+                                        Grid.Column="1"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                    <Label TextColor="White"
+                                       Grid.Column="2"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">00</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#43;"
+                                        Grid.Column="3"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                </Grid>
+                            </Frame>
+
+                            <Frame BackgroundColor="OrangeRed"
+                              HeightRequest="40"
+                              Margin="20,0"
+                               Padding="0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label TextColor="White"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">Frijol</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#45;"
+                                        Grid.Column="1"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                    <Label TextColor="White"
+                                       Grid.Column="2"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">00</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#43;"
+                                        Grid.Column="3"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                </Grid>
+                            </Frame>
+
+                            <Frame BackgroundColor="OrangeRed"
+                              HeightRequest="40"
+                              Margin="20,0"
+                               Padding="0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label TextColor="White"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">Chorizo</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#45;"
+                                        Grid.Column="1"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                    <Label TextColor="White"
+                                       Grid.Column="2"
+                                       FontSize="Large"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center">00</Label>
+
+                                    <Button BackgroundColor="#cf4400"
+                                        Text="&#43;"
+                                        Grid.Column="3"
+                                        TextColor="White"
+                                        FontSize="16"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="CenterAndExpand"></Button>
+
+                                </Grid>
+                            </Frame>
+
+
+
+                        </StackLayout>
+
+                        <Button Grid.Row="1"
+                            BackgroundColor="#cf4400"
+                            TextColor="White"
+                            Text="Agregar"
+                            Margin="20,0"></Button>
+
+
+                    </Grid>
+
+
+                </ScrollView>
+
+
+
+
+
+
+
+
+                <Frame BackgroundColor="#cf4400"
+                   Margin="0"
+                       Padding="0"
+                       CornerRadius="10"
+                    Grid.Row="2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <ImageButton Source="deshacer.png"
+                                 BackgroundColor="Transparent"
+                                 HeightRequest="30"
+                                 HorizontalOptions="CenterAndExpand"
+                                 ></ImageButton>
+                        <ImageButton Source="editar.png"
+                                 Grid.Column="1"
+                                 BackgroundColor="Transparent"
+                                 HeightRequest="30"
+                                 HorizontalOptions="CenterAndExpand"
+                                 ></ImageButton>
+                        <ImageButton Source="basura.png"
+                                 Grid.Column="2"
+                                 BackgroundColor="Transparent"
+                                 HeightRequest="30"
+                                 HorizontalOptions="CenterAndExpand"
+                                 ></ImageButton>
+
+
+                    </Grid>
+
+                </Frame>
+
+
+            </Grid>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
